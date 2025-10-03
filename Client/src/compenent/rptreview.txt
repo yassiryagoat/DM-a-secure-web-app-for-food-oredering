@@ -1,0 +1,6 @@
+1-intro conclu pour chaque chapitre
+2-Figure 3 : Diagramme de Séquence d'Authentification changement
+3-titre tableu audessus ,figure audessous
+4-supprime Figure 5: Diagramme de Séquence de Gestion du Menu 
+4-replace Figure 6: Diagramme d'états-transition  par diagramm de class
+5-

@@ -1,0 +1,66 @@
+.header {
+    height: 350px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.header img {
+    height: 450px;
+    width: 500px;
+    margin-left: 20px; /* Adjusted margin to separate image from text */
+    border-radius: 100%;
+    margin-bottom: -2%;
+}
+
+.header-contenents {
+    color: rgb(255, 255, 255);
+    max-width: 60%;
+    margin-left: 20px; /* Adjusted margin to separate text from image */
+}
+
+.header-contenents h2 {
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: max(2vw, 50px);
+    font-weight: 850; /* This line doesn't have any effect, removed */
+    line-height: 80%;
+}
+
+.header-contenents p {
+    color: rgba(0, 0, 0, 0.356);
+    background-color: rgb(255, 255, 255);
+    font-weight: 150;
+    line-height: 165%;
+}
+
+.header-contenents button {
+    background-color: #ff6600;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 24px; /* Increase padding */
+    font-size: 20px; /* Increase font size */
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+.header-contenents button:hover {
+    background-color: #fd6a00;
+}
+
+@media (max-width: 1050px) {
+    .header-contenents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-contenents {
+        max-width: 65%;
+    }
+    .header-contenents p {
+        display: none;
+    }
+    .header-contenents button {
+        padding: 2vw 4vw;
+    }
+}

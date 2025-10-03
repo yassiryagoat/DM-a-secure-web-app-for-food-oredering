@@ -1,0 +1,117 @@
+.DMlogo {
+    max-width: 3pc;
+    max-height: 3pc;
+    margin-left: 10px;
+    margin-bottom: 10%;
+}
+.navbar{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 0% ;
+
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+    margin-bottom: 0.5% ;
+}
+.navbar button{
+    background: transparent;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    border: 1px solid rgb(62, 184, 62);
+    padding: 1px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    background-color: rgb(51, 156, 77);
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 11px;
+    min-height: 11px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    top: 1px;
+    right: 1.5px;
+
+
+}
+
+@media (max-width:1050px){
+    .navbar .DMlogo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+    }
+    
+}
+
+@media (max-width:900px){
+    .navbar .DMlogo{
+        width: 120px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:750px){
+   
+    .navbar-menu{
+        display: none;
+    }
+    
+    
+}
