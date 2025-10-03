@@ -1,0 +1,31 @@
+/* FoodDisplay.css */
+
+.food-display {
+    display: flex; /* Allow for potential layout flexibility */
+    flex-direction: column; /* Stack elements vertically by default */
+    width: 100%; /* Take up full available width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add some breathing room */
+    border: 1px solid #ddd; /* Optional subtle border */
+    border-radius: 5px; /* Gentle rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10%; /* Subtle shadow for depth */
+  }
+  
+  .food-display h2 {
+    text-align: center; /* Center the title */
+    margin: 10px 0; /* Add some space above and below */
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Emphasize the title */
+  }
+  
+  .food-display-list {
+    display:grid; /* Use grid layout for responsive arrangement */
+    grid-template-columns: repeat(3, 1fr); /* Adaptive columns */
+    gap: 20px; /* Spacing between items */
+    /* Adjust these margins/padding based on content density and preferences */
+    margin: 10px 0;
+    padding: 0 10px; /* Optional padding for alignment with border */
+  }
+  
+  
